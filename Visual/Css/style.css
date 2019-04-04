@@ -1,0 +1,376 @@
+*{
+	margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.alertas{
+	width: 50%;
+	height: 50%;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.badge{
+	color: red !important;
+	margin-left:10px !important;
+	background-color: #fff !important;
+}
+
+.fuente{
+	color:#000 !important;
+}
+
+.form-control{
+	font-size: 18px !important; 
+}
+
+body{
+	z-index: 0;
+	font-size: 17px !important;
+	background-color: #333 !important;
+	font-family: 'Abel', sans-serif !important;
+}
+
+tbody{
+	background-color: #335566 !important;
+}
+
+li{
+	padding: 8px;
+}
+
+a{
+	text-align: none;
+	text-decoration: none !important;
+}
+
+ul li{
+	list-style:none;
+	cursor: pointer; /*  */
+}
+
+.ul-interno li:hover{
+	color: #fff;
+	background: #2a6c72;
+}
+
+.contenedor-menu .uele-menu ul{
+	background-color: #333;
+}
+
+.contenedor-menu .uele-menu ul{
+	display: none;
+}
+
+#beneficiario{
+	display: none !important;
+}
+
+.p-subtitulo-siniestro,
+.contenedor-menu,
+.subtitulo,
+.p-texto,
+.activo,
+.fila,
+label,
+a{
+	color: #fff !important;
+}
+
+.caja-externa-boton,
+.fluido-interno,
+.buscador{
+	margin: 0 auto !important;
+}
+
+.caja-boton-tres,
+.boton-tres{
+	width: 135px !important;
+}
+
+.izquierda,
+.botonAceptar{
+	margin-right: 20px !important;
+}
+
+.caja-boton-uno,
+.caja-boton-tres,
+.form-col-2,
+.izquierda{
+	float: left !important;
+}
+
+.caja-boton-pago{
+	width: 28.2% !important;
+	float:left !important;
+}
+
+.caja-boton-poliza{
+	margin-right:7.5% !important;
+	float:left !important;
+	width: 28.2% !important;
+}
+
+.caja-boton-cliente{
+	width: 28.2% !important;
+	float:left !important;
+	margin-right:7.5% !important;
+}
+
+.cajaon-boton{
+	width: 22.5% !important;
+	float: left !important;
+}
+
+.caja-boton-uno,
+.caja-boton-dos,
+.boton{
+	width: 118px !important;
+}
+
+
+.contenedor-menu,
+.contenedor,
+.uele-menu,
+.col-lg-2{
+	padding: 0px !important;
+}
+
+.contenedor{
+	margin-bottom:20px !important;
+}
+
+.deRow{
+	margin-left:0px !important;
+}
+
+.header{
+	height: 50px !important;
+	background-color: #2a6c72 !important;
+}
+
+.contenido{
+	min-width: 540px !important;
+	margin-left: 225px !important;
+}
+
+.contenedor-menu{
+	z-index: 1;
+	height: 100%;
+	position: fixed !important;
+	min-width: 180px !important;
+	padding-top: 50px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.formulario{
+	width: 85% !important;
+	margin-bottom: 10px !important;
+}
+
+.formulario,
+.centrar{
+	margin: 0 auto !important;
+}
+
+.buscador{
+	width: 80% !important;
+	padding-top: 10px !important;
+}
+
+.elei{
+	font-size: 16px;
+	font-family: 'Abel', sans-serif;
+}
+
+.icono{
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.icono-boton{
+	margin-left: 10px !important;
+}
+
+.plus{
+	padding-left: 25px;
+}
+
+.uele-menu{
+	margin: 0px !important;
+}
+
+.elei:hover{
+	color: #fff;
+	background: #333;
+}
+
+.activo{
+	background: #333;
+}
+
+.ul-interno{
+	margin-top: 10px;
+}
+
+.izquierda{
+	margin-left: 8px !important;
+	margin-top: 2px !important;
+	margin-bottom: 4px !important;
+}
+
+.derecha{
+	margin: 2px !important;
+}
+
+.btnBuscar{
+	margin-top: 5px !important;
+}
+
+.text-right{
+	width: 102px !important;
+}
+
+.form-col-1{
+	float:left !important;
+	margin-right: 3px;
+}
+
+.form-col-1,
+.form-col-2{
+	margin-top: 2px;
+}
+
+.mensaje{
+	margin-top:15px !important;
+}
+
+.grupo-btn{
+	margin-top: 20px !important;
+	margin-bottom: 30px !important;
+}
+
+.caja-externa-boton{
+	width: 70% !important;
+}
+
+.caja-boton-dos,
+.derecha{
+	float: right !important;
+}
+
+.table-responsive{
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+	max-height: 245px !important;
+	overflow-y: auto !important;
+}
+
+/*table{
+	border-spacing: 0;
+    display: flex; Se ajuste dinamicamente al tamano del dispositivo
+    max-height: 40vh; El alto que necesitemos
+    overflow-y: auto; El scroll verticalmente cuando sea necesario
+    overflow-x: hidden; Sin scroll horizontal
+    table-layout: fixed; Forzamos a que las filas tenga el mismo ancho
+    width: 98vw; El ancho que necesitemos
+}*/
+
+/*thead{
+    background-color: #f1eee9;
+    position: fixed !important; El thead va ser siempre estatico
+}*/
+
+.contenedor-menu,
+.separador,
+table{
+	background-color: #2a6c72 !important;
+}
+
+.contenedor-texto{
+	width:100% !important;
+	height:20px !important;
+	margin-top:20px !important;
+	margin-bottom:3.5px !important;
+}
+
+.p-subtitulo-siniestro,
+.subtitulo,
+.p-texto{
+	font-family:'Abel', sans-serif !important;
+	font-size:20px !important;
+}
+
+.p-subtitulo-siniestro,
+.subtitulo,
+.p-texto{
+	height:25px !important;
+}
+
+.p-texto{
+	width:10px !important;
+}
+
+.p-subtitulo-siniestro{
+	width:168px !important;
+}
+
+.contenedor-subtitulo,
+.separador{
+	width:100% !important;
+}
+
+.separador{
+	height:1.5px !important;
+	margin-bottom:10px !important;
+}
+
+.contenedor-subtitulo{
+	height:20px !important;
+	margin-top:20px !important;
+	margin-bottom:3.5px !important;
+}
+
+.subtitulo{
+	width:10px !important;
+}
+
+.contenedor-form{
+	margin: 20px 0px 120px 0px !important;
+}
+
+footer{
+	bottom:0 !important;
+	position:absolute !important;
+}
+
+.img-login,
+.fluido,
+footer{
+	width:100% !important;
+}
+
+.fluido-interno{
+	width: 250px; 
+	height: 200px;
+}
+
+.logos{
+	padding-top:5px;
+	height:85px !important;
+	background-color:#2A2A2A !important;
+}
+
+.centrar{
+	width: 70px;
+	height: 70px;
+}
+
+.img-login{
+	height: 100%;
+}
